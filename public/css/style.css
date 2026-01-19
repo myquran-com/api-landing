@@ -75,11 +75,14 @@ main.container {
     border-color: #123e38;
     color: #fff;
     font-weight: bold;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn-custom-v3:hover {
     background-color: #052c27;
     border-color: #052c27;
+    color: #ffc107; /* Yellow text */
+    transform: scale(1.05);
 }
 
 .footer {
