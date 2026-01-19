@@ -1,0 +1,95 @@
+body {
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(10, 25, 20, 0.85),
+            rgba(18, 62, 56, 0.8)
+        ),
+        url("../bg-6-full.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f8f9fa;
+}
+
+.hero-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem !important;
+}
+
+.logo-link {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.logo-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.card-deemphasized {
+    opacity: 0.75;
+    transform: scale(0.95);
+}
+
+.card-deemphasized:hover {
+    opacity: 1;
+    transform: scale(0.98) translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-custom-v3 {
+    background-color: #e1f0b7;
+    border-color: #e1f0b7;
+    color: #123e38;
+    font-weight: bold;
+}
+
+.btn-custom-v3:hover {
+    background-color: #cadd9a;
+    border-color: #cadd9a;
+    color: #123e38;
+}
+
+.footer {
+    color: #adb5bd;
+}
+
+.terabit-link {
+    color: #ced4da;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terabit-link:hover {
+    color: #fff;
+}
