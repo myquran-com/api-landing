@@ -12,12 +12,10 @@ ke dokumentasi API versi 2 dan versi 3, serta kanal diskusi.
 - **Ringan**: Hanya menggunakan HTML, CSS, dan sedikit JavaScript untuk tahun
   copyright otomatis.
 
-## Struktur File
-
-- `index.html`: Kode utama halaman landing.
-- `img/`: Folder aset gambar.
-- `bg-6-full.jpg`: Gambar background.
-
 ## Kredit
 
 - **Owner**: myQuran.com
+
+## ScreenShot
+
+![ScreenShot](ss.jpg)
